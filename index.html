@@ -5,33 +5,80 @@
   <title>AAR DEMO | AWS CLOUD DEPLOYMENT</title>
   <style>
     body {
-      color: #000080;
-      background-color: #F0F8FF;
+      /* Background image and styling with overlay */
+      color: #ffffff;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://example.com/downloaded-image.jpg'); /* Replace with actual image URL */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       font-family: Arial, sans-serif;
-      font-size: 14px;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
-    
+
+    /* Center container styling */
+    .container {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 200px;
+      max-width: 600px;
+    }
+
     h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
+      font-size: 3em;
+      font-weight: bold;
+      color: #00ccff;
+      margin: 0.2em 0;
     }
-    
+
     h2 {
-      font-size: 200%;
-      font-weight: normal;
-      margin-bottom: 0;
+      font-size: 2em;
+      color: #ffcc00;
+      margin: 0.2em 0;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      color: #ffffff;
+      margin: 0.5em 0;
+    }
+
+    p {
+      font-size: 1em;
+      color: #cccccc;
+    }
+
+    a {
+      color: #00ccff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 30%;
+      border-radius: 50%;
+      margin-bottom: 1em;
     }
   </style>
 </head>
 <body>
-  <div align="center">
-    <!-- Corrected the img tag -->
-    <img src="https://your-image-url.com/dreamdevlogo.htm"style="max-width: 20%;">
-    <h1>Congratulations!!!</h1>
-    <h2>Devops team</h2>
-   
+<center>
+  <div class="container">
+    <img src="DDDD.png" alt="">
+
+    <h1>Welcome To DreamDev</h1>
+    <h2>Our Manager Mr. Seshu Babu Thota</h2>
+    <h3>This application was deployed using AWS CodeDeploy.</h3>
+    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
+  </div>
+</center>
 </body>
 </html>
-
-
